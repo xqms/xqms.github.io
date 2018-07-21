@@ -1,0 +1,135 @@
+intro: 'For citation counts etc, see my <a href="https://scholar.google.com/citations?user=3nGA1pMAAAAJ">Google Scholar page</a>.'
+publications:
+  - short: "2018_arc"
+    title: "Fast Object Learning and Dual-arm Coordination for Cluttered Stowing, Picking, and Packing"
+    authors: "**Max Schwarz**, Christian Lenz, German Martin Garcia, Seongyong Koo, Arul Selvam Periyasamy, Michael Schreiber, and Sven Behnke"
+    conference: 'ICRA 2018
+    <a href="http://www.ais.uni-bonn.de/videos/ICRA_2018_Schwarz_ARC/index.html">[Video]</a>'
+    url: http://www.ais.uni-bonn.de/papers/ICRA_2018_Schwarz_ARC.pdf
+  - short: "2018_momaro_book"
+    title: "DRC Team NimbRo Rescue: Perception and Control for Centaur-like Mobile Manipulation Robot Momaro"
+    authors: "**Max Schwarz**, Marius Beul, David Droeschel, Tobias Klamt, Christian Lenz, Dmytro Pavlichenko, Tobias Rodehutskors, Michael Schreiber, Nikita Araslanov, Ivan Ivanov, Jan Razlaw, Sebastian Schüller, David Schwarz, Angeliki Topalidou-Kyniazopoulou, and Sven Behnke"
+    conference: "The Darpa Robotics Challenge Finals: Humanoid Robots To The Rescue, Springer Tracts in Advanced Robotics (STAR), vol. 121, pp. 145-190, April 2018"
+    url: http://www.ais.uni-bonn.de/papers/DRC_Finals_Book_2018_NimbRo_Rescue.pdf
+  - short: "2017_apc_ijrr"
+    title: "RGB-D Object Detection and Semantic Segmentation for Autonomous Manipulation in Clutter"
+    authors: "**Max Schwarz**, Anton Milan, Arul Selvam Periyasamy, and Sven Behnke"
+    conference: "International Journal of Robotics Research (IJRR), June 2017"
+    url: http://www.ais.uni-bonn.de/papers/IJRR_2017_Schwarz.pdf
+  - short: "2017_apc_workshop"
+    title: "Data-efficient Deep Learning for RGB-D Object Perception in Cluttered Bin Picking"
+    authors: "**Max Schwarz** and Sven Behnke"
+    conference: "Warehouse Picking Automation Workshop (WPAW), ICRA 2017"
+    url: http://www.ais.uni-bonn.de/papers/ICRA_2017_WPAW_Schwarz.pdf
+  - short: "2017_apc"
+    title: "NimbRo Picking: Versatile Part Handling for Warehouse Automation"
+    authors: "**Max Schwarz**, Anton Milan, Christian Lenz, Aura Munoz, Arul Selvam Periyasamy, Michael Schreiber, Sebastian Schüller, and Sven Behnke"
+    conference: "ICRA 2017. Finalist for Best Automation Paper."
+    url: http://www.ais.uni-bonn.de/papers/ICRA_2017_Schwarz.pdf
+  - short: "2017_drc"
+    title: "NimbRo Rescue: Solving Disaster-Response Tasks through Mobile Manipulation Robot Momaro"
+    authors: "**Max Schwarz**, Tobias Rodehutskors, David Droeschel, Marius Beul, Michael Schreiber, Nikita Araslanov, Ivan Ivanov, Christian Lenz, Jan Razlaw, Sebastian Schüller, David Schwarz, Angeliki Topalidou-Kyniazopoulou, and Sven Behnke"
+    conference: "Journal of Field Robotics (JFR) 34(2):400–425, 2017"
+    url: http://www.ais.uni-bonn.de/papers/JFR_2017_NimbRo_Rescue_Momaro.pdf
+  - short: "2017_mapping"
+    title: "Continuous Mapping and Localization for Autonomous Navigation in Rough Terrain using a 3D Laser Scanner"
+    authors: "David Droeschel, **Max Schwarz**, and Sven Behnke"
+    conference: "Robotics and Autonomous Systems, volume 88, pages 104–115, February 2017"
+    url: http://www.ais.uni-bonn.de/papers/RAS_2016_Droeschel.pdf
+  - short: "2016_athome"
+    title: "Mobile Manipulation, Tool Use, and Intuitive Interaction for Cognitive Service Robot Cosero"
+    authors: "Jörg Stückler, **Max Schwarz**, and Sven Behnke"
+    conference: "Frontiers in AI and Robotics, section Humanoid Robotics, vol. 3, November 2016"
+    url: http://dx.doi.org/10.3389/frobt.2016.00058
+  - short: "2016_momaro_spacebot"
+    title: "Supervised Autonomy for Exploration and Mobile Manipulation in Rough Terrain with a Centaur-like Robot"
+    authors: "**Max Schwarz**, Marius Beul, David Droeschel, Sebastian Schüller, Arul Selvam Periyasamy, Christian Lenz, Michael Schreiber, and Sven Behnke"
+    conference: "Frontiers in Robotics and AI, section Humanoid Robotics, vol. 3, article 57, October 2016."
+    url: http://www.ais.uni-bonn.de/papers/Frontiers_2016_SpaceBot.pdf
+  - short: "2016_momaro_spacebot_ias"
+    title: "Supervised Autonomy for Exploration and Mobile Manipulation in Rough Terrain"
+    authors: "**Max Schwarz**, Sebastian Schüller, Christian Lenz, David Droeschel, and Sven Behnke"
+    conference: "14th International Conference on Intelligent Autonomous Systems (IAS), Shanghai, China, July 2016"
+    url: http://www.ais.uni-bonn.de/papers/IAS-14_2016_Schwarz.pdf
+  - short: "2016_momaro_hybrid"
+    title: "Hybrid Driving-Stepping Locomotion with the Wheeled-legged Robot Momaro"
+    authors: "**Max Schwarz**, Tobias Rodehutskors, Michael Schreiber, and Sven Behnke"
+    conference: "ICRA 2016"
+    url: http://www.ais.uni-bonn.de/papers/ICRA_2016_Schwarz.pdf
+  - short: "2016_nimbro_explorer"
+    title: "NimbRo Explorer: Semi-Autonomous Exploration and Mobile Manipulation in Rough Terrain"
+    authors: "Jörg Stückler, **Max Schwarz**, Mark Schadler, Angeliki Topalidou-Kyniazopoulou, and Sven Behnke"
+    conference: "Journal of Field Robotics 33(4):411-430, Wiley, 2016"
+    url: http://www.ais.uni-bonn.de/papers/JFR_2016_NimbRo_Explorer.pdf
+  - short: "2015_momaro_telemanip"
+    title: "Intuitive Bimanual Telemanipulation under Communication Restrictions by Immersive 3D Visualization and Motion Tracking"
+    authors: "Tobias Rodehutskors, **Max Schwarz**, and Sven Behnke"
+    conference: "International Conference on Humanoid Robots (Humanoids) 2015"
+    url: http://www.ais.uni-bonn.de/papers/Humanoids_2015_Rodehutskors.pdf
+  - short: "2015_momaro_driving"
+    title: "Semi-autonomous Concurrent Driving-Stepping Locomotion"
+    authors: "**Max Schwarz** and Sven Behnke"
+    conference: 'Late Breaking Result at ICRA 2015. <a href="http://www.ais.uni-bonn.de/papers/ICRA_2015_LBR_Poster_Schwarz.pdf">[Poster]</a>'
+    url: http://www.ais.uni-bonn.de/papers/ICRA_2015_LBR_Schwarz.pdf
+  - short: "2015_rgbd_object"
+    title: "RGB-D Object Recognition and Pose Estimation based on Pre-trained Convolutional Neural Network Features"
+    authors: "**Max Schwarz**, Hannes Schulz, and Sven Behnke"
+    conference: "ICRA 2015"
+    url: http://www.ais.uni-bonn.de/papers/ICRA_2015_Schwarz_RGB-D-Objects_Transfer-Learning.pdf
+  - short: "2014_teleoperation"
+    title: "Mobile Teleoperation Interfaces for Domestic Service Robots"
+    authors: "**Max Schwarz**, Jörg Stückler, and Sven Behnke"
+    conference: "Workshop on How to Make Best Use of a Human Supervisor for Semi-Autonomous Humanoid Operation, 14th IEEE-RAS International Conference on Humanoid Robots (Humanoids) 2014"
+    url: http://www.ais.uni-bonn.de/papers/Humanoids_2014_WS_Schwarz.pdf
+  - short: "2014_bluetooth"
+    title: "Cosero, find my Keys! Object Localization and Retrieval using Bluetooth Low Energy Tags"
+    authors: "David Schwarz, **Max Schwarz**, Jörg Stückler, and Sven Behnke"
+    conference: "18th RoboCup International Symposium, Joao Pessoa, Brasil, July 2014"
+    url: http://www.ais.uni-bonn.de/papers/RoboCup_2014_Schwarz_Bluetooth_Localization.pdf
+  - short: "2014_local_nav"
+    title: "Local Navigation in Rough Terrain using Omnidirectional Height"
+    authors: "**Max Schwarz** and Sven Behnke"
+    conference: "ISR/ROBOTIK 2014"
+    url: http://www.ais.uni-bonn.de/papers/ISR_Robotik_2014_Schwarz.pdf
+  - short: "2014_teleoperation"
+    title: "Mobile Teleoperation Interfaces with Adjustable Autonomy for Personal Service Robots"
+    authors: "**Max Schwarz**, Jörg Stückler, and Sven Behnke"
+    conference: "HRI 2014"
+    url: http://www.ais.uni-bonn.de/papers/HRI_2014_Tablet.pdf
+  - short: "2014_athome"
+    title: "Increasing Flexibility of Mobile Manipulation and Intuitive Human-Robot Interaction in RoboCup@Home"
+    authors: "Jörg Stückler, David Droeschel, Kathrin Gräve, Dirk Holz, Michael Schreiber, Angeliki Topalidou-Kyniazopoulou, **Max Schwarz**, and Sven Behnke"
+    conference: "RoboCup 2013: Robot World Cup XVII, Lecture Notes in Computer Science 8371, pp. 135-146, Springer, 2014"
+    url: http://www.ais.uni-bonn.de/papers/RoboCup_2013_Stueckler_NimbRo_at_Home.pdf
+  - short: "2014_capture_steps"
+    title: "Learning to Improve Capture Steps for Disturbance Rejection in Humanoid Soccer"
+    authors: "Marcell Missura, Cedrick Münstermann, Philipp Allgeuer, **Max Schwarz**, Julio Pastrana, Sebastian Schueller, Michael Schreiber, and Sven Behnke"
+    conference: "RoboCup 2013: Robot World Cup XVII, Lecture Notes in Computer Science 8371, pp. 56-67, Springer, 2014"
+    url: http://www.ais.uni-bonn.de/papers/RoboCup_2013_Missura_Learning_Capture_Steps.pdf
+  - short: "2013_nimbro_op2"
+    title: "A ROS-Based Software Framework for the NimbRo-OP Humanoid Open Platform"
+    authors: "Philipp Allgeuer, **Max Schwarz**, Julio Pastrana, Sebastian Schueller, Marcell Missura and Sven Behnke"
+    conference: "8th Workshop on Humanoid Soccer Robots, IEEE-RAS International Conference on Humanoid Robots (Humanoids) 2013"
+    url: http://www.ais.uni-bonn.de/papers/HSR13_Allgeuer_ROS_NimbRo-OP.pdf
+  - short: "2013_servo"
+    title: "Compliant Robot Behavior using Servo Actuator Models identified by Iterative Learning Control"
+    authors: "**Max Schwarz** and Sven Behnke"
+    conference: "17th RoboCup International Symposium, Eindhoven, Netherlands, June 2013"
+    url: http://www.ais.uni-bonn.de/papers/RC13_Schwarz.pdf
+  - short: "2013_nimbro_op"
+    title: "Humanoid TeenSize Open Platform NimbRo-OP"
+    authors: "**Max Schwarz**, Julio Pastrana, Philipp Allgeuer, Michael Schreiber, Sebastian Schueller, Marcell Missura and Sven Behnke"
+    conference: "17th RoboCup International Symposium, Eindhoven, Netherlands, June 2013"
+    url: http://www.ais.uni-bonn.de/papers/RC_2013_NimbRo-OP.pdf
+  - title: "NimbRo@Home: Winning Team of the RoboCup@Home Competition 2012"
+    short: "2012_nimbro_athome"
+    authors: "Jörg Stückler, Ishrat Badami, David Droeschel, Kathrin Gräve, Dirk Holz, Manus McElhone, Matthias Nieuwenhuisen, Michael Schreiber, **Max Schwarz**, and Sven Behnke"
+    conference: "RoboCup 2012, Robot Soccer World Cup XVI,  LNCS 7500, pp. 94-105, Springer, 2013"
+    url: http://www.ais.uni-bonn.de/papers/RC12_HomeWinner.pdf
+  - paper:
+    short: "2012_nimbro_op"
+    title: "NimbRo-OP Humanoid TeenSize Open Platform"
+    authors: "**Max Schwarz**, Michael Schreiber, Sebastian Schueller, Marcell Missura and Sven Behnke"
+    conference: "7th Workshop on Humanoid Soccer Robots, IEEE-RAS International Conference on Humanoid Robots, Osaka, November 2012"
+    url: http://www.ais.uni-bonn.de/papers/HSR12_NimbRo-OP.pdf
+

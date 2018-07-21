@@ -1,0 +1,14 @@
+projects:
+  - name: rosmon
+    icon: rosmon.png
+    url: http://wiki.ros.org/rosmon
+  - name: nimbro_network
+    icon: explorer.jpg
+    url: https://github.com/AIS-Bonn/nimbro_network/
+  - name: KDevelop
+    icon: kdevelop.png
+    url: https://github.com/KDE/kdevelop/commits?author=xqms
+  - name: Linux
+    icon: linux.png
+    url: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Max+Schwarz
+

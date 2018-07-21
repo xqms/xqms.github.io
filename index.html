@@ -1,0 +1,241 @@
+---
+title: Max Schwarz
+---
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Max Schwarz</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
+		<style>
+			/* latin-ext */
+			@font-face {
+				font-family: 'Roboto Mono';
+				font-style: normal;
+				font-weight: 300;
+				src: local('Roboto Mono Light'), local('RobotoMono-Light'), url({{ "assets/fonts/L0xkDF4xlVMF-BfR8bXMIjDgiWq_f7-7Ag.woff2" | absolute_url }}) format('woff2');
+				unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+			}
+			/* latin */
+			@font-face {
+				font-family: 'Roboto Mono';
+				font-style: normal;
+				font-weight: 300;
+				src: local('Roboto Mono Light'), local('RobotoMono-Light'), url({{ "assets/fonts/L0xkDF4xlVMF-BfR8bXMIjDgiWqxf78.woff2" | absolute_url }}) format('woff2');
+				unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+			}
+			@font-face {
+				font-family: 'Roboto Mono';
+				font-style: normal;
+				font-weight: 400;
+				src: local('Roboto Mono'), local('RobotoMono-Regular'), url({{ "assets/fonts/L0x5DF4xlVMF-BfR8bXMIjhFq3-OXg.woff2" | absolute_url }}) format('woff2');
+				unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+			}
+			/* latin */
+			@font-face {
+				font-family: 'Roboto Mono';
+				font-style: normal;
+				font-weight: 400;
+				src: local('Roboto Mono'), local('RobotoMono-Regular'), url({{ "assets/fonts/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2" | absolute_url }}) format('woff2');
+				unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+			}
+
+			body {
+				font-family: 'Roboto Mono', monospace;
+				font-weight: 300;
+			}
+
+			a, a:visited {
+				color: black;
+			}
+
+			#wrapper {
+				width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			#wrapper h1 {
+				padding-top: 30px;
+				float: right;
+				font-weight: 400;
+				margin-bottom: 0;
+				color: #6177aa;
+			}
+
+			#wrapper h2 {
+				padding-top: 50px;
+				font-weight: 400;
+				width: 100%;
+				border-bottom: 2px solid #6177aa;
+				color: #6177aa;
+			}
+
+			.clear::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
+
+			#portrait {
+				width: 40%;
+				float: right;
+				margin-top: 10px;
+				margin-left: 30px;
+			}
+
+			.about::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
+
+			.about p {
+				padding-right: 30px;
+				padding-top: 10px;
+			}
+
+			#publist {
+				padding: 0;
+			}
+
+			#publist > li {
+				display: flex;
+				padding-bottom: 15px;
+				padding-top: 15px;
+				border-top: 1px solid black;
+			}
+
+			#publist > li:first-child {
+				border-top: none;
+			}
+
+			.publication-icon {
+				flex-shrink: 0;
+				width: 140px;
+			}
+
+			.publication-icon img {
+				max-width: 120px;
+				max-height: 200px;
+			}
+
+			.publication-title {
+				font-weight: 400;
+			}
+
+			.publication-authors {
+				font-size: 80%;
+			}
+			.publication-conference {
+				font-size: 80%;
+			}
+
+			#projlist {
+				padding: 0;
+			}
+
+			#projlist .img_wrapper {
+				width: 100%;
+				text-align: center;
+			}
+
+			#projlist .img_wrapper img {
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+
+			#projlist li {
+				list-style: none;
+				display: inline-block;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+
+			#projlist li img {
+				max-width: 100px;
+				max-height: 100px;
+			}
+
+			#projlist .name {
+				width: 100%;
+				text-align: center;
+			}
+
+			#projlist .placeholder {
+				width: 100px;
+				height: 100px;
+				overflow: auto;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="clear" style="border-bottom: 3px solid #6177aa">
+				<h1>Max Schwarz</h1>
+			</div>
+
+			<div class="about">
+				<img id="portrait" src="{{site.baseurl}}/assets/profile.jpg" />
+				<p>
+					I'm a PhD student with the
+					<a href="http://ais.uni-bonn.de/">Autonomous Intelligent Systems Group</a> at University of Bonn.
+					My research interests include robotic systems of all kinds and deep learning for robotic perception.
+				</p>
+
+				<p>
+					I received my Bachelor of Science in CS 2014 and my Master of Science in CS 2017, both at University of Bonn.
+				</p>
+			</div>
+
+			<h2>Code</h2>
+
+			Some open-source projects I maintain or contribute to:
+
+			<ul id="projlist">
+				{% for proj in site.data.projects.projects %}
+				<li>
+					<a href="{{ proj.url }}">
+						<div class="img_wrapper">
+							{% if proj.placeholder %}
+								<div class="placeholder">{{ proj.placeholder }}</div>
+							{% else %}
+								<img src="{{ site.baseurl }}/assets/projects/{{ proj.icon }}" alt="{{ proj.name }}" />
+							{% endif %}
+						</div>
+						<div class="name">{{ proj.name }}</div>
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+
+			For more, see my <a href="https://github.com/xqms/">GitHub profile</a>.
+
+			<h2>Publications</h2>
+
+			<ul id="publist">
+				{% for pub in site.data.publications.publications %}
+				<li>
+					<div class="publication-icon">
+						<a href="{{ pub.url }}">
+							<img src="{{ site.baseurl}}/assets/publications/{{ pub.short }}.jpg" alt="{{ pub.title }}" />
+						</a>
+					</div>
+					<div class="publication-right">
+							<a href="{{ pub.url }}">
+								<div class="publication-title">{{ pub.title }}</div>
+							</a>
+						<div class="publication-authors">
+							{{ pub.authors | markdownify }}
+						</div>
+						<div class="publication-conference">{{ pub.conference }}</div>
+					</div>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</body>
+</html>
