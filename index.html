@@ -184,6 +184,20 @@ title: Max Schwarz
 				padding-left: 2px;
 				padding-right: 2px;
 			}
+
+			table.competitions {
+				margin-top: 10px;
+				border-spacing: 5px;
+			}
+
+			table.competitions tr {
+				padding-top: 5px;
+			}
+
+			table.competitions tr td:nth-child(1) {
+				color: #6177aa;
+				vertical-align: top;
+			}
 		</style>
 	</head>
 	<body>
@@ -205,6 +219,21 @@ title: Max Schwarz
 				</p>
 			</div>
 
+			<h2>Projects</h2>
+
+			<p>Robotic competitions are awesome. Here are some I participated in:</p>
+
+			<table class="competitions">
+				{% for comp in site.data.competitions.competitions %}
+				<tr>
+					<td>{{ comp.date }}:</td>
+					<td>
+						<a href="{{ comp.link }}">{{ comp.title }}</a><br/>
+						<span class="result">{{ comp.result }}</span>
+					</td>
+				</tr>
+				{% endfor %}
+			</table>
 
 			<h2>Code</h2>
 

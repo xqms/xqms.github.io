@@ -1,0 +1,25 @@
+competitions:
+  - date: 2017
+    title: "NimbRo Picking @ Amazon Robotics Challenge 2017 (team lead)"
+    result: 2nd place
+    link: http://www.nimbro.net/Picking/
+  - date: 2017
+    title: "Mohamed Bin Zayed Internation Robotics Challenge, MBZIRC (UGV team lead)"
+    result: "UGV challenge: 1st place, finals: 1st place"
+    link: http://www.ais.uni-bonn.de/nimbro/MBZIRC
+  - date: 2016
+    title: "NimbRo Picking @ Amazon Picking Challenge 2016 (team lead)"
+    result: "2nd and 3rd place"
+    link: http://www.nimbro.net/Picking/
+  - date: 2015
+    title: "NimbRo Explorer @ DLR SpaceBot Camp (team lead)"
+    result: "completed all tasks (no ranking)"
+    link: http://www.ais.uni-bonn.de/nimbro/Explorer/
+  - date: 2015
+    title: "NimbRo Rescue @ DARPA Robotics Challenge (team lead)"
+    result: "4th place"
+    link: http://www.ais.uni-bonn.de/nimbro/Rescue/index.html
+  - date: 2014
+    title: "NimbRo@Home @ Robocup @Home (team lead)"
+    result: "3rd place"
+    link: http://www.ais.uni-bonn.de/nimbro/@Home
