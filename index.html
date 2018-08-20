@@ -162,6 +162,7 @@ title: Max Schwarz
 			#projlist .name {
 				width: 100%;
 				text-align: center;
+				padding-top: 5px;
 			}
 
 			#projlist .placeholder {
@@ -169,6 +170,19 @@ title: Max Schwarz
 				height: 100px;
 				overflow: auto;
 				text-align: center;
+			}
+
+			.code_maintain {
+				background-color: hsl(240, 100%, 95%);
+				border-radius: 5px;
+				padding-left: 2px;
+				padding-right: 2px;
+			}
+			.code_contribute {
+				background-color: hsl(60, 100%, 80%);
+				border-radius: 5px;
+				padding-left: 2px;
+				padding-right: 2px;
 			}
 		</style>
 	</head>
@@ -191,9 +205,10 @@ title: Max Schwarz
 				</p>
 			</div>
 
+
 			<h2>Code</h2>
 
-			Some open-source projects I maintain or contribute to:
+			Some open-source projects I <span class="code_maintain">maintain</span> or <span class="code_contribute">contribute</span> to:
 
 			<ul id="projlist">
 				{% for proj in site.data.projects.projects %}
@@ -206,7 +221,7 @@ title: Max Schwarz
 								<img src="{{ site.baseurl }}/assets/projects/{{ proj.icon }}" alt="{{ proj.name }}" />
 							{% endif %}
 						</div>
-						<div class="name">{{ proj.name }}</div>
+						<div class="name"><span class="code_{{ proj.type }}">{{ proj.name }}</span></div>
 					</a>
 				</li>
 				{% endfor %}
